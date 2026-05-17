@@ -1,0 +1,13 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee" version="5.0">
+
+<servlet>
+<servlet-name>Form</servlet-name>
+<servlet-class>FormServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Form</servlet-name>
+<url-pattern>/FormServlet</url-pattern>
+</servlet-mapping>
+
+</web-app>
